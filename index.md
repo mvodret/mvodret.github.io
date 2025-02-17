@@ -1,14 +1,16 @@
 ---
 layout: default
-#title: "Michele Vodret"
 ---
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; justify-content: space-between;">
   <div>
-    <h1>Michele Vodret</h1>
-    <h2 style="color: gray; font-weight: 300;">Postdoctoral Researcher in AI & Physics</h2>
+    <h1 style="margin-bottom: 5px;">Michele Vodret</h1>
+    <h2 style="color: gray; font-weight: 300; margin-top: 0;">
+      Postdoctoral Researcher in AI & Physics
+    </h2>
   </div>
-  <img src="assets/images/profile.png" width="120" style="border-radius: 50%; margin-left: 20px;">
+  <img src="assets/images/profile.png" width="120" 
+       style="border-radius: 50%; margin-left: 20px;">
 </div>
 
 ---
