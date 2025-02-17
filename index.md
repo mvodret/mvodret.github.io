@@ -8,7 +8,7 @@ title: "Michele Vodret"
     <h1>Michele Vodret</h1>
     <h2 style="color: gray; font-weight: 300;">Postdoctoral Researcher in AI & Physics</h2>
   </div>
-  <img src="assets/images/profile.jpg" width="120" style="border-radius: 50%; margin-left: 20px;">
+  <img src="assets/images/profile.png" width="120" style="border-radius: 50%; margin-left: 20px;">
 </div>
 
 ---
