@@ -1,17 +1,32 @@
 ---
 layout: default
-title: My Website
-subtitle: A personal blog about AI and physics
+title: "Michele Vodret"
 ---
 
-# Welcome to My Website 🚀
-This is a GitHub Pages site using Jekyll.
+<img src="assets/images/profile.jpg" width="150" style="border-radius: 50%">
 
-- I work on **AI, physics, and MRI research**.
-- My latest project involves **time-series irreversibility**.
-- Check out my work on [GitHub](https://github.com/mvodret).
+## About Me
+I am a **Postdoctoral Researcher in AI & Physics**, focusing on:
+- Computational neuroscience 🧠
+- MRI & Cancer Imaging 🏥
+- Irreversibility in Time Series 📈
 
-## 📚 Recent Posts
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
+📍 Based in Italy  
+📧 [Email Me](mailto:your-email@example.com)  
+
+---
+
+## 📂 Publications
+- **Paper 1**: [Title Here](#)
+- **Paper 2**: [Title Here](#)
+
+---
+
+## 🎤 Talks & Teaching
+- **Talk 1**: [Conference Name](#)
+- **Course 1**: [Teaching Page](#)
+
+---
+
+## 🔗 Links
+[GitHub](https://github.com/mvodret) | [Google Scholar](#) | [Twitter](#)
