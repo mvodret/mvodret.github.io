@@ -3,6 +3,10 @@ plugins:
   - jekyll-remote-theme  # add this line to the plugins list if you already have one
 
 
+title: ""  # Empty string to prevent the big title
+description: ""  # Optional: removes subtitle
+
+
 #title: [The title of your site]
 #description: [A short description of your site's purpose]
 
