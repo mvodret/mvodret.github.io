@@ -3,7 +3,7 @@ layout: default
 title: "Michele Vodret"
 ---
 
-<img src="assets/images/profile.jpg" width="150" style="border-radius: 50%">
+<img src="assets/images/profile.png" width="150" style="border-radius: 50%">
 
 ## About Me
 I am a **Postdoctoral Researcher in AI & Physics**, focusing on:
