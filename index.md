@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Michele Vodret"
+#title: "Michele Vodret"
 ---
 
 <div style="display: flex; align-items: center;">

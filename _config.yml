@@ -6,8 +6,8 @@ plugins:
 #title: [The title of your site]
 #description: [A short description of your site's purpose]
 
-title: "Michele Vodret"
-description: "Postdoctoral Researcher in AI & Physics"
+#title: "Michele Vodret"
+#description: "Postdoctoral Researcher in AI & Physics"
 remote_theme: "pages-themes/tactile@v0.2.0"
 
 # Navigation Menu (Modify as needed)
