@@ -3,97 +3,128 @@ layout: default
 title: Publications
 ---
 
-<nav style="background: #f8f9fa; padding: 15px; border-radius: 6px; margin-bottom: 30px; text-align: center;">
-  <a href="/" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Home</a>
-  <a href="/cv" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">CV</a>
-  <a href="/publications" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Publications</a>
-  <a href="/talks" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Talks</a>
-  <a href="/teaching" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Teaching</a>
-  <a href="/contact" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Contact</a>
+<style>
+.nav-clean {
+  background: rgba(102, 126, 234, 0.08);
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 35px;
+  text-align: center;
+  border: 1px solid rgba(102, 126, 234, 0.15);
+}
+.nav-clean a {
+  color: #2c3e50;
+  text-decoration: none;
+  margin: 0 25px;
+  font-weight: 500;
+  padding: 12px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  border: 2px solid transparent;
+}
+.nav-clean a:hover {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: rgba(102, 126, 234, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+}
+.nav-clean a.current {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 10px;
+}
+</style>
+
+<nav class="nav-clean">
+  <a href="/">Home</a>
+  <a href="/cv">CV</a>
+  <a href="/publications" class="current">Publications</a>
+  <a href="/talks">Talks</a>
+  <a href="/teaching">Teaching</a>
+  <a href="/contact">Contact</a>
 </nav>
 
-# Publications
+1. **Irreversibility in belief dynamics: unraveling the link to cognitive effort**  
+   Physical Review E 110 (1), 014304, **M. Vodret**
 
-## Journal Articles
+2. **Functional decomposition and estimation of irreversibility in time series via machine learning**  
+   Physical Review E 110 (6), 064310  
+   **M. Vodret**, C. Pacini and C. Bongiorno
 
-### 2025
+3. **A heterogeneous GARCH model with an adaptive agents and their cognitive biases**  
+   Journal of Economic Interaction and Coordination, 18 (3), 599-625  
+   **M. Vodret**, B. Toth, I. Mastromatteo and M. Benzaquen
 
-1. **Your Paper Title Here**  
-   *M. Vodret*, Co-Author A., Co-Author B.  
-   *Journal Name*, Volume(Issue), Pages (2025)  
-   [DOI](https://doi.org/example) | [arXiv](https://arxiv.org/abs/example) | [PDF](assets/papers/paper1.pdf)
+4. **Do fundamentals shape the price response? A critical assessment of linear impact models**  
+   Quantitative Finance, 22 (12), 2139-2150 (selected as Editor's suggestion)  
+   **M. Vodret**, B. Toth, I. Mastromatteo and M. Benzaquen
 
-2. **Another Research Paper**  
-   Co-Author A., *M. Vodret*, Co-Author B.  
-   *High-Impact Journal*, Volume(Issue), Pages (2025)  
-   [DOI](https://doi.org/example) | [arXiv](https://arxiv.org/abs/example)
+5. **Universal amplitude ratios for critical aging via functional renormalization group**  
+   Physics A, 95 (26), 264008  
+   **M. Vodret**, A. Chiocchetta and A. Gambassi
 
-### 2024
+6. **A stationary Kyte setup: microfounding propagator models**  
+   Journal of statistical mechanics: theory and experiments, 2021 (3), 033410  
+   **M. Vodret**, B. Toth, I. Mastromatteo and M. Benzaquen
 
-3. **Time Series Irreversibility in Neural Networks**  
-   *M. Vodret*, Collaborator Name  
-   *Physical Review E*, Volume(Issue), Pages (2024)  
-   [DOI](https://doi.org/example) | [arXiv](https://arxiv.org/abs/example)
-
-4. **MRI-based Cancer Detection using Deep Learning**  
-   Research Team, *M. Vodret*  
-   *Medical Image Analysis*, Volume(Issue), Pages (2024)  
-   [DOI](https://doi.org/example)
-
----
-
-## Conference Proceedings
-
-### 2025
-
-1. **Computational Approaches to Brain Dynamics**  
-   *M. Vodret*, Conference Co-authors  
-   *Proceedings of NeurIPS 2025*, Pages (2025)  
-   [PDF](assets/papers/conference1.pdf)
-
-### 2024
-
-2. **Machine Learning in Medical Imaging**  
-   Author List including *M. Vodret*  
-   *MICCAI 2024 Proceedings*, Pages (2024)  
-   [DOI](https://doi.org/example)
+7. **Size effects in micro and nanoscale materials fracture**  
+   Nature Reviews Materials, 3 (7), 241-252  
+   A. Taloni, **M. Vodret**, G. Costantini, S. Zapperi
 
 ---
 
-## Preprints
+## Selected Conference Presentations
 
-1. **Title of Ongoing Research**  
-   *M. Vodret*, Collaborators  
-   *arXiv preprint arXiv:2025.xxxxx* (2025)  
-   [arXiv](https://arxiv.org/abs/example)
+- **Econophysics Colloquium (EC)**, Lipari, Italy  
+  "A heterogeneous agent-based GARCH model with cognitive biases"
 
-2. **Another Work in Progress**  
-   Authors including *M. Vodret*  
-   *bioRxiv preprint* (2025)  
-   [bioRxiv](https://biorxiv.org/example)
+- **European Conference on Complex Systems (ECCS)**, Online  
+  "Do fundamentals shape the price response? A critical assessment of linear impact models"
+
+- **Mathematical Approaches in Complex Systems Workshop**, Trieste, Italy  
+  "Statistical Physics approaches to financial markets"
 
 ---
 
 ## Thesis
 
-**Ph.D. Thesis: "Your PhD Thesis Title"**  
-*University Name* (Year)  
-Advisor: Prof. Advisor Name  
-[PDF](assets/thesis/phd_thesis.pdf)
+**Ph.D. Thesis: "Microfounded theories of price formation"**  
+*École Polytechnique*, Institut Polytechnique de Paris (2022)  
+École Doctorale de l'Institut polytechnique de Paris (EDIPP)  
+Specialité de doctorat: Physique  
 
-**Master's Thesis: "Your Master's Thesis Title"**  
-*University Name* (Year)  
-[PDF](assets/thesis/masters_thesis.pdf)
+**Defense:** November 18, 2022, Palaiseau  
+
+**Jury:**
+- **Président:** Damien Challet (CentraleSupélec, MICS)
+- **Rapporteurs:** Johannes Muhle-Karbe (Imperial College London), Giulio Bottazzi (Scuola Superiore Sant'Anna)
+- **Examinateurs:** Albert Kyle (University of Maryland), Sophie Laruelle (Université Paris-Est Créteil)
+- **Directeur de thèse:** Michael Benzaquen (CNRS & École polytechnique, LadHyX)
+- **Co-encadrants:** Iacopo Mastromatteo & Bence Tóth (PhD, Capital Fund Management)
+
+[Full Text PDF](https://theses.hal.science/tel-04106396/file/114697_VODRET_2022_archivage.pdf)
+
+**Master's Thesis: "Physics and Data Science"**  
+*University of Milan*, Department of Physics (2019)  
+**Master's Thesis: "Quantitative Finance"**  
+*École Polytechnique*, X-HEC program (2019)
 
 ---
 
 ## Publication Metrics
 
-- **Total Publications**: X journal articles, Y conference papers
-- **Citations**: Z (Google Scholar)
-- **h-index**: N
-- **ORCID**: [0000-0000-0000-0000](https://orcid.org/0000-0000-0000-0000)
+- **Google Scholar Profile**: [View full metrics](https://scholar.google.com/citations?user=BjqSd7cAAAAJ)
+- **Research Focus**: Agent-based modeling, Quantitative finance, Statistical mechanics, Time series analysis
+- **ORCID**: Available upon request
 
 ---
 
-*For the most up-to-date publication list, visit my [Google Scholar profile](https://scholar.google.com/citations?user=USERID) or [ResearchGate](https://www.researchgate.net/profile/Michele-Vodret).*
+---
+
+*For the most up-to-date publication list and citation metrics, visit my [Google Scholar profile](https://scholar.google.com/citations?user=BjqSd7cAAAAJ).*

@@ -2,3 +2,9 @@ vendor/
 .bundle/
 .DS_Store
 preview.html
+.jekyll-metadata
+_site/
+Gemfile.lock
+*.log
+.sass-cache/
+.jekyll-cache/

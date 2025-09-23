@@ -3,123 +3,95 @@ layout: default
 title: Talks & Presentations
 ---
 
-<nav style="background: #f8f9fa; padding: 15px; border-radius: 6px; margin-bottom: 30px; text-align: center;">
-  <a href="/" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Home</a>
-  <a href="/cv" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">CV</a>
-  <a href="/publications" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Publications</a>
-  <a href="/talks" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Talks</a>
-  <a href="/teaching" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Teaching</a>
-  <a href="/contact" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Contact</a>
+<style>
+.nav-clean {
+  background: rgba(102, 126, 234, 0.08);
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 35px;
+  text-align: center;
+  border: 1px solid rgba(102, 126, 234, 0.15);
+}
+.nav-clean a {
+  color: #2c3e50;
+  text-decoration: none;
+  margin: 0 25px;
+  font-weight: 500;
+  padding: 12px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  border: 2px solid transparent;
+}
+.nav-clean a:hover {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: rgba(102, 126, 234, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+}
+.nav-clean a.current {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 10px;
+}
+</style>
+
+<nav class="nav-clean">
+  <a href="/">Home</a>
+  <a href="/cv">CV</a>
+  <a href="/publications">Publications</a>
+  <a href="/talks" class="current">Talks</a>
+  <a href="/teaching">Teaching</a>
+  <a href="/contact">Contact</a>
 </nav>
 
-# Talks & Presentations
+### 2021
 
-## Invited Talks
+**"A heterogeneous agent-based GARCH model with cognitive biases"**  
+*Econophysics Colloquium (EC)*  
+Lipari, Italy | September 2021
 
-### 2025
+**"Do fundamentals shape the price response? A critical assessment of linear impact models"**  
+*European Conference on Complex Systems (ECCS)*  
+Online | September 2021
 
-**"AI Applications in Computational Neuroscience"**  
-*International Conference on Neural Computing*  
-Location, Country | Date, 2025  
-[Slides](assets/slides/neuroscience_ai_2025.pdf)
-
-**"Time Series Analysis in Biological Systems"**  
-*Department Seminar, University Name*  
-Location, Country | Date, 2025
-
-### 2024
-
-**"Machine Learning for Medical Image Analysis"**  
-*Medical AI Symposium*  
-Location, Country | Date, 2024  
-[Slides](assets/slides/medical_ai_2024.pdf) | [Video](https://youtube.com/example)
+**"Statistical Physics approaches to financial markets"**  
+*Mathematical Approaches in Complex Systems Workshop*  
+Trieste, Italy | April 2021
 
 ---
 
-## Conference Presentations
+## Academic Seminars
 
-### 2025
+### 2022
 
-**"Irreversibility Measures in Neural Time Series"**  
-*Poster Presentation at International Physics Conference*  
-Location, Country | Date, 2025  
-[Poster](assets/posters/irreversibility_2025.pdf) | [Abstract](assets/abstracts/abstract_2025.pdf)
+**PhD Defense Presentation**  
+*"Statistical mechanics approach to the microstructure of financial markets"*  
+École Polytechnique, Centre de Mathématiques Appliquées | 2022
 
-**"Deep Learning Approaches to Cancer Detection"**  
-*Oral Presentation at Medical Imaging Conference*  
-Location, Country | Date, 2025  
-[Slides](assets/slides/cancer_detection_2025.pdf)
+### Research Group Presentations
 
-### 2024
-
-**"Computational Methods in Neuroscience"**  
-*Graduate Student Conference*  
-Location, Country | Date, 2024  
-[Poster](assets/posters/neuroscience_methods_2024.pdf)
-
-**"Statistical Physics of Biological Networks"**  
-*International Statistical Physics Conference*  
-Location, Country | Date, 2024  
-[Slides](assets/slides/biological_networks_2024.pdf)
+Regular presentations at:
+- Centre de Mathématiques Appliquées, École Polytechnique
+- University of Milan, Department of Physics
+- Various research collaborations and working groups
 
 ---
 
-## Workshops & Tutorials
+## Research Focus Areas
 
-### 2025
-
-**"Introduction to Medical Image Analysis with Python"**  
-*Workshop at Summer School Name*  
-Location, Country | Date, 2025  
-[Materials](https://github.com/mvodret/medical-imaging-tutorial)
-
-### 2024
-
-**"Time Series Analysis for Physicists"**  
-*Graduate Student Workshop*  
-Location, Country | Date, 2024  
-[Jupyter Notebooks](https://github.com/mvodret/timeseries-workshop)
+- **Agent-based modeling** in financial markets
+- **Statistical mechanics** approaches to economic systems  
+- **Time series analysis** and irreversibility measures
+- **Quantitative finance** and market microstructure
+- **Machine learning** applications to financial data
 
 ---
-
-## Seminars & Departmental Talks
-
-### 2025
-
-- **"Recent Advances in AI-Physics Integration"** - Department Seminar, Institution Name (Date)
-- **"Research Update: MRI Analysis Project"** - Group Meeting, Lab Name (Date)
-
-### 2024
-
-- **"PhD Research Overview"** - Graduate Student Seminar, University Name (Date)
-- **"Introduction to Neural Networks for Physicists"** - Journal Club, Department Name (Date)
-
----
-
-## Science Communication & Outreach
-
-### 2025
-
-**"AI and the Future of Medicine"**  
-*Public Science Café*  
-Location | Date, 2025
-
-**"What is Computational Neuroscience?"**  
-*High School Visit*  
-School Name, Location | Date, 2025
-
-### 2024
-
-**"Physics Meets AI: Real-world Applications"**  
-*Science Festival*  
-Location | Date, 2024
-
----
-
-## Media & Interviews
-
-- **Podcast Interview**: "The Future of AI in Healthcare" - Podcast Name (Date, 2025)
-- **Newsletter Feature**: "Young Researcher Spotlight" - Institution Newsletter (Date, 2024)
 
 ---
 

@@ -3,134 +3,97 @@ layout: default
 title: Teaching
 ---
 
-<nav style="background: #f8f9fa; padding: 15px; border-radius: 6px; margin-bottom: 30px; text-align: center;">
-  <a href="/" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Home</a>
-  <a href="/cv" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">CV</a>
-  <a href="/publications" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Publications</a>
-  <a href="/talks" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Talks</a>
-  <a href="/teaching" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Teaching</a>
-  <a href="/contact" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Contact</a>
+<style>
+.nav-clean {
+  background: rgba(102, 126, 234, 0.08);
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 35px;
+  text-align: center;
+  border: 1px solid rgba(102, 126, 234, 0.15);
+}
+.nav-clean a {
+  color: #2c3e50;
+  text-decoration: none;
+  margin: 0 25px;
+  font-weight: 500;
+  padding: 12px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  border: 2px solid transparent;
+}
+.nav-clean a:hover {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: rgba(102, 126, 234, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+}
+.nav-clean a.current {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 10px;
+}
+</style>
+
+<nav class="nav-clean">
+  <a href="/">Home</a>
+  <a href="/cv">CV</a>
+  <a href="/publications">Publications</a>
+  <a href="/talks">Talks</a>
+  <a href="/teaching" class="current">Teaching</a>
+  <a href="/contact">Contact</a>
 </nav>
 
-# Teaching
-
-## Teaching Experience
-
-### Graduate Teaching Assistant
-**University Name** | Year - Year
-
-#### Course: Introduction to Computational Physics (PHYS XXX)
-*Undergraduate Course | Fall 2024, Spring 2025*
-- Conducted weekly laboratory sessions for 20+ students
-- Developed Python tutorials for physics simulations
-- Graded assignments and provided feedback on computational projects
-- **Student Evaluation**: 4.8/5.0
-
-#### Course: Advanced Statistical Mechanics (PHYS XXX)
-*Graduate Course | Fall 2024*
-- Led problem-solving sessions and office hours
-- Created supplementary materials on Monte Carlo methods
-- Assisted with exam preparation and review sessions
-- **Student Evaluation**: 4.9/5.0
-
-#### Course: Medical Physics Laboratory (PHYS XXX)
-*Undergraduate Course | Spring 2024*
-- Supervised hands-on experiments with medical imaging equipment
-- Taught image analysis techniques using MATLAB and Python
-- Mentored student research projects
+### University of Milan (2025)
+**Esercitazioni di Meccanica Statistica**  
+*Prof. Stefano Zapperi*
+- Teaching assistant for Statistical Mechanics course
+- Conducting exercise sessions and problem-solving tutorials
 
 ---
 
-## Guest Lectures
+## Previous Teaching Experience
 
-### "Machine Learning in Physics" 
-*Course: Modern Computational Methods*  
-**University Name** | Date, 2025  
-Topics: Neural networks, deep learning applications in physics
-[Lecture Slides](assets/teaching/ml_physics_lecture.pdf)
+### CentraleSupélec (2023)
 
-### "Time Series Analysis for Experimental Data"
-*Course: Advanced Data Analysis*  
-**University Name** | Date, 2024  
-Topics: Fourier analysis, spectral methods, irreversibility measures
-[Lecture Materials](assets/teaching/timeseries_lecture.pdf)
+**Viral Propagation (Network module)**  
+*Prof. Bongiorno*
+- Course on network theory and viral propagation models
+- Focus on complex systems and epidemic modeling
 
----
+**Données et Statistiques en Finance: modeles d'agents**  
+*Prof. Challet*  
+- Agent-based models in finance
+- Statistical methods for financial data analysis
 
-## Workshops & Tutorials
-
-### "Python for Scientists" Workshop
-**Institution Name** | Date, 2025
-- 3-day intensive workshop for graduate students and postdocs
-- Covered NumPy, SciPy, Matplotlib, and Jupyter notebooks
-- Hands-on projects in data analysis and visualization
-- **Participants**: 25 researchers from physics, biology, and chemistry
-
-### "Introduction to Medical Image Analysis"
-**Summer School Name** | Date, 2024
-- Tutorial on medical imaging fundamentals
-- Practical exercises with real MRI and CT data
-- Introduction to deep learning for medical applications
-[Workshop Repository](https://github.com/mvodret/medical-imaging-tutorial)
+**Time series and agent-based modeling in finance**  
+*Prof. Bongiorno*
+- Time series analysis techniques
+- Application of agent-based modeling to financial markets
 
 ---
 
-## Mentoring
+## Student Supervision
 
-### Graduate Students Supervised
-- **Student Name** (Ph.D. candidate) - "Project Title" (2024-Present)
-- **Student Name** (M.Sc. student) - "Project Title" (2024)
-
-### Undergraduate Research Projects
-- **Student Name** - "Summer Research Project Title" (Summer 2025)
-- **Student Name** - "Independent Study Project" (Spring 2024)
-- **Student Name** - "Honors Thesis Project" (2023-2024)
+### Master's Thesis Supervision
+- Supervised 3 students for master's thesis in physics (*"Ho fatto da relatore a 3 studenti per tesi di laurea magistrale in fisica"*)
 
 ---
 
-## Curriculum Development
+## Teaching Focus Areas
 
-### Course Materials Created
-- **"Computational Neuroscience Primer"** - Tutorial series for physicists entering neuroscience
-- **"Python for Medical Imaging"** - Hands-on laboratory exercises
-- **"Statistical Methods in Time Series"** - Problem sets and solutions
-
-### Educational Software/Tools
-- [**Physics Simulation Suite**](https://github.com/mvodret/physics-sims) - Interactive Python notebooks for undergraduate physics
-- [**MRI Analysis Toolkit**](https://github.com/mvodret/mri-toolkit) - Educational tools for medical physics courses
+My teaching experience centers on:
+- **Statistical Mechanics** and thermodynamics
+- **Agent-based modeling** for complex systems
+- **Network theory** and epidemic models  
+- **Time series analysis** in finance
+- **Quantitative finance** and econophysics
 
 ---
 
-## Teaching Philosophy
-
-I believe in **hands-on, project-based learning** that connects theoretical concepts with real-world applications. My approach emphasizes:
-
-- **Active Learning**: Students learn best by doing, not just listening
-- **Interdisciplinary Connections**: Showing how physics principles apply across fields
-- **Computational Literacy**: Integrating programming as a fundamental skill
-- **Research Integration**: Bringing current research questions into the classroom
-
----
-
-## Teaching Awards & Recognition
-
-- **Excellence in Teaching Award** - University Name (2024)
-- **Graduate Teaching Assistant of the Year** - Physics Department (2024)
-- **Outstanding Mentor Award** - Undergraduate Research Program (2023)
-
----
-
-## Professional Development
-
-### Teaching Training
-- **Certificate in University Teaching** - Teaching Center, University Name (2024)
-- **Workshop on Inclusive Pedagogy** - Education Department (2024)
-- **Scientific Communication Workshop** - Graduate School (2023)
-
-### Conference Presentations on Education
-- "Integrating AI into Physics Education" - *Physics Education Research Conference* (2024)
-- "Computational Tools for Medical Physics Teaching" - *International Conference on Physics Education* (2024)
-
----
-
-*For course materials, syllabi, or teaching portfolio, please [contact me](contact.html).*

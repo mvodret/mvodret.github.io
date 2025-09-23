@@ -3,97 +3,103 @@ layout: default
 title: CV
 ---
 
-<nav style="background: #f8f9fa; padding: 15px; border-radius: 6px; margin-bottom: 30px; text-align: center;">
-  <a href="/" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Home</a>
-  <a href="/cv" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">CV</a>
-  <a href="/publications" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Publications</a>
-  <a href="/talks" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Talks</a>
-  <a href="/teaching" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Teaching</a>
-  <a href="/contact" style="color: #0366d6; text-decoration: none; margin: 0 15px; font-weight: 500;">Contact</a>
-</nav>
+<style>
+.nav-clean {
+  background: rgba(102, 126, 234, 0.08);
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 35px;
+  text-align: center;
+  border: 1px solid rgba(102, 126, 234, 0.15);
+}
+.nav-clean a {
+  color: #2c3e50;
+  text-decoration: none;
+  margin: 0 25px;
+  font-weight: 500;
+  padding: 12px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  border: 2px solid transparent;
+}
+.nav-clean a:hover {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: rgba(102, 126, 234, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+}
+.nav-clean a.current {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 10px;
+}
+</style>
 
-# Curriculum Vitae
+<nav class="nav-clean">
+  <a href="/">Home</a>
+  <a href="/cv" class="current">CV</a>
+  <a href="/publications">Publications</a>
+  <a href="/talks">Talks</a>
+  <a href="/teaching">Teaching</a>
+  <a href="/contact">Contact</a>
+</nav>
 
 ## Education
 
-### Ph.D. in Physics (Year - Year)
-**University Name**
-- Thesis: "Your Thesis Title"
-- Advisor: Prof. Name
-- Focus: Computational Physics, AI applications
+### Ph.D. in Physics (2019-2022)
+**École Polytechnique**
+- Focus: Agent-based models for financial markets and price dynamics
+- Thesis topic: Scritto al programma di dottorato in Fisica, ho lavorato su modelli ad agente volti a riprodurre la dinamica del prezzo nei mercati finanziari
 
-### M.Sc. in Physics (Year - Year)
-**University Name**
-- Thesis: "Master's Thesis Title"
-- Grade: Grade/GPA
+### Laurea Magistrale in Fisica (2016-2019)
+**Università degli studi di Milano**
+- Focus: Teoria dei campi, meccanica statistica
 
-### B.Sc. in Physics (Year - Year)
-**University Name**
-- Grade: Grade/GPA
+### Laurea Triennale in Fisica (2012-2016)
+**Università degli studi di Milano**
 
 ---
 
 ## Professional Experience
 
-### Postdoctoral Researcher (Year - Present)
-**Institution Name**
-- Research focus: AI & Physics applications
-- Computational neuroscience and MRI analysis
-- Time series analysis and irreversibility studies
+### Assegnista di ricerca di tipo B (August 2024 - Present)
+**Università degli studi di Milano**
+- Part of ABC project aimed at creating multiplex networks for prostate tumor risk stratification
+- Research focus: Complex systems, network theory, and medical applications
 
-### Graduate Research Assistant (Year - Year)
-**University Name**
-- Description of research and responsibilities
+### PostDoc (2022-2024)
+**CentraleSupélec**
+- Project collaboration between cognitive neuroscientists and physicists
+- Research focus: Agent-based modeling and interdisciplinary applications
 
 ---
 
 ## Research Interests
 
-- **Computational Neuroscience**: Neural network modeling, brain dynamics
-- **Medical Imaging**: MRI analysis, cancer detection algorithms
-- **Time Series Analysis**: Irreversibility measures, statistical physics
-- **Machine Learning**: Applications to physical systems
+- **Agent-based modeling**: Complex systems simulation and financial markets
+- **Quantitative Finance**: Financial market dynamics and econophysics
+- **Network Theory**: Multiplex networks and complex network analysis
+- **Statistical Mechanics**: Applications to economic and social systems
 
 ---
 
-## Skills
+## Experience
 
-### Programming Languages
-- Python (NumPy, SciPy, TensorFlow, PyTorch)
-- MATLAB
-- R
-- C++
+### Teaching & Supervision
+- Leadership/mentoring: Ho fatto da relatore a 3 studenti per tesi di laurea magistrale in fisica
 
-### Technical Skills
-- Machine Learning & Deep Learning
-- Medical Image Analysis
-- Statistical Data Analysis
-- High-Performance Computing
-
-### Software & Tools
-- Git/GitHub
-- Docker
-- Jupyter Notebooks
-- LaTeX
+### Research Experience
+- **Viral Propagation (Network module)**, tenuto da Prof. Bongiorno, CentraleSupélec, 2023
+- **Données et Statistiques en Finance: modeles d'agents**, tenuto da Prof. Challet, CentraleSupélec, 2023  
+- **Time series and agent-based modeling in finance**, tenuto da Prof. Bongiorno, CentraleSupélec, 2023
 
 ---
-
-## Awards & Honors
-
-- Award Name (Year)
-- Fellowship/Grant Name (Year)
-- Conference Award (Year)
-
----
-
-## Professional Service
-
-### Peer Review
-- Journal Name
-- Conference Name
-
-### Conference Organization
-- Role in Conference Name (Year)
 
 ---
 
