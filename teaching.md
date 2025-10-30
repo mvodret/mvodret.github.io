@@ -5,35 +5,43 @@ title: Teaching
 
 <style>
 .nav-clean {
-  background: rgba(102, 126, 234, 0.08);
-  padding: 25px;
-  border-radius: 12px;
-  margin-bottom: 35px;
-  text-align: center;
-  border: 1px solid rgba(102, 126, 234, 0.15);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: transparent;
 }
+
 .nav-clean a {
+  position: relative;
+  font-weight: 500;
   color: #2c3e50;
   text-decoration: none;
-  margin: 0 25px;
-  font-weight: 500;
-  padding: 12px 20px;
-  border-radius: 25px;
-  transition: all 0.3s ease;
-  display: inline-block;
-  border: 2px solid transparent;
+  padding: 6px 0;
+  transition: color 0.3s ease;
 }
-.nav-clean a:hover {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border-color: rgba(102, 126, 234, 0.3);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+
+.nav-clean a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  transition: width 0.3s ease;
 }
+
+.nav-clean a:hover::after,
+.nav-clean a.current::after {
+  width: 100%;
+}
+
 .nav-clean a.current {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: #667eea;
 }
+
 h1 {
   color: #2c3e50;
   border-bottom: 3px solid #3498db;
