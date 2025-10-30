@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home
 ---
 
 <style>
@@ -37,6 +38,10 @@ body {
 .nav-clean a.current {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
+}
+/* Nascondi solo il titolo Jekyll automatico, non quello nell'header custom */
+body > .inner > h1:first-child {
+  display: none;
 }
 .header-clean {
   display: flex;

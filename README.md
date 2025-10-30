@@ -4,27 +4,42 @@ Personal academic website built with Jekyll and deployed on GitHub Pages.
 
 ## 🚀 Quick Start
 
-### Local Development with Docker
+### Local Development with Jekyll (Native)
 
-The easiest way to run the website locally is using Docker:
+The recommended way to run the website locally is using Jekyll natively:
 
 ```bash
 # Clone the repository
 git clone https://github.com/mvodret/mvodret.github.io.git
 cd mvodret.github.io
 
-# Start the development server
-docker compose up --build
+# Install dependencies
+bundle install
+
+# Start the development server with live reload
+bundle exec jekyll serve --livereload
 ```
 
 The website will be available at:
-- **Website**: http://localhost:4000
-- **LiveReload**: http://localhost:35729 (automatically refreshes when files change)
+- **Website**: http://127.0.0.1:4000
+- **LiveReload**: http://127.0.0.1:35729 (automatically refreshes when files change)
 
 ### Stopping the Server
 
 ```bash
 # Stop the development server
+# Press Ctrl+C in the terminal where Jekyll is running
+```
+
+### Alternative: Docker Development (if needed)
+
+You can still use Docker if you prefer:
+
+```bash
+# Start with Docker
+docker compose up --build
+
+# Stop with Docker
 docker compose down
 ```
 
@@ -88,10 +103,30 @@ git push origin main
 
 ## 🛠️ Technical Details
 
-- **Generator**: Jekyll 3.10.0
+- **Generator**: Jekyll 3.9.5
+- **Ruby**: 3.3.5 (via rbenv)
 - **Hosting**: GitHub Pages
 - **Theme**: Remote theme `pages-themes/tactile@v0.2.0`
-- **Development**: Docker with Ruby 3.1
+- **Development**: Native Jekyll with Live Reload
+
+### Prerequisites
+
+To run the site locally, you need:
+- Ruby 3.3.5 (managed with rbenv)
+- Bundler gem
+- Jekyll and dependencies (installed via `bundle install`)
+
+### Troubleshooting
+
+**If Jekyll installation fails with eventmachine errors:**
+This is a known issue with newer macOS versions. The complete solution involves:
+
+1. Clean reinstall of Xcode Command Line Tools
+2. Clean reinstall of Homebrew with proper dependencies
+3. Install Ruby via rbenv with correct compilation flags
+4. Install Jekyll dependencies
+
+For detailed steps, refer to the commit history or create an issue.
 
 ## 📧 Contact
 
