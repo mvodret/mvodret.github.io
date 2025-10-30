@@ -42,11 +42,6 @@ layout: default
   color: #667eea;
 }
 
-h1 {
-  color: #2c3e50;
-  border-bottom: 3px solid #3498db;
-  padding-bottom: 10px;
-}
 </style>
 
 <nav class="nav-clean">
