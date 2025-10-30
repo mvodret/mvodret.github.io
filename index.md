@@ -84,27 +84,27 @@ body > .inner > h1:first-child {
   <a href="/teaching">Teaching</a>
   <a href="/contact">Contact</a>
 </nav>
-
 <div class="header-clean">
   <div>
     <h1>Michele Vodret</h1>
-    <h2>Research Associate in Statistical Physics & Quantitative Finance</h2>
+    <h2>Researcher in Complex Systems and Data Science</h2>
   </div>
   <img src="assets/images/profile.png" class="profile-img" alt="Michele Vodret">
 </div>
 
 ## About
 
-I am currently a Research Associate (*Assegnista di ricerca di tipo B*) at the **University of Milan** since August 2024, working on complex systems and network theory applications to medical research as part of the ABC project for prostate tumor risk stratification.
+I am a researcher working at the intersection of **statistical physics**, **machine learning**, and **complex systems**.  
+My work focuses on understanding patterns and emergent behaviors in **biological**, **social**, and **financial** systems through data-driven modeling and quantitative analysis.
 
-My research expertise spans **statistical physics**, **agent-based modeling**, and **quantitative finance**. I completed my PhD at **École Polytechnique** (2019-2022) with the thesis "Microfounded theories of price formation," focusing on mathematical models of financial market dynamics.
-
-Previously, I was a PostDoc at **CentraleSupélec** (2022-2024), collaborating on interdisciplinary projects bridging cognitive neuroscience and physics. During my academic formation, I was a visiting research scientist at **SISSA** (2018/2019).
+I have experience across multiple fields, from **network theory** and **agent-based models** to **time-series analysis** and **medical data modeling**.  
+My broader goal is to develop tools that bridge **theoretical modeling** and **real-world data** to gain insights into complex phenomena.
 
 ## Research Interests
 
-- **Statistical Mechanics** applied to economic and social systems
-- **Agent-based Modeling** for complex systems simulation  
-- **Quantitative Finance** and market microstructure analysis
-- **Network Theory** and multiplex networks
-- **Time Series Analysis** and irreversibility measures
+- **Statistical Mechanics** and stochastic modeling  
+- **Complex Systems** and emergent collective dynamics  
+- **Time-Series Analysis** and irreversibility  
+- **Network Theory** and information flow  
+- **Computational Models** for biological and social systems
+
