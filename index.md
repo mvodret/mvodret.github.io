@@ -111,17 +111,17 @@ I aim to build tools that connect theory and real-world data, turning complex dy
 ## Research Interests
 
 
-- **Statistical mechanics and stochastic modeling
+- Statistical mechanics and stochastic modeling
 
 
-- **Complex systems and emergent dynamics
+- Complex systems and emergent dynamics
 
 
-- **Time-series analysis and irreversibility
+- Time-series analysis and irreversibility
 
 
-- **Network theory and information flow
+- Network theory and information flow
 
 
-- **Computational models for biology and society
+- Computational models for biology and society
 
