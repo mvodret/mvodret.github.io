@@ -3,6 +3,23 @@ layout: default
 ---
 
 <style>
+/* Override theme constraints for better desktop view */
+.inner {
+  max-width: 1200px !important;
+  width: 90% !important;
+  margin: 0 auto !important;
+}
+
+#content-wrapper {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
 .nav-clean {
   display: flex;
   justify-content: center;
@@ -41,6 +58,20 @@ layout: default
   color: #667eea;
 }
 
+/* Nascondi solo il titolo Jekyll automatico */
+body > .inner > h1:first-child {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-clean { flex-wrap: wrap; gap: 15px; }
+}
+
+/* Ensure good desktop spacing */
+@media (min-width: 769px) {
+  .nav-clean { gap: 40px; padding: 30px 0; }
+  body { font-size: 16px; }
+}
 
 </style>
 
