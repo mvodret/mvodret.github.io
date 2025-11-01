@@ -19,7 +19,7 @@ layout: default
 - ### Ph.D. in Physics, École Polytechnique & CFM
 **Title: Microfounded theories of price formation**
 
-- ### Master Degree in Physics, Università degli studi di Milano**
+- ### Master Degree in Physics, Università degli studi di Milano
 **Focus: Statistical Field theory**
 
 - ### Bachelor Degree in Physics, Università degli studi di Milano
@@ -28,15 +28,13 @@ layout: default
 
 ## Professional Experience
 
-### Assegnista di ricerca di tipo B (August 2024 - Present)
-**Università degli studi di Milano**
-- Part of PRISM-AI project aimed at creating multiplex networks for prostate tumor risk stratification
-- Research focus: Complex systems, network theory and medical applications
+- ### Assegnista di ricerca di tipo B (August 2024 - Present), Università degli studi di Milano
+Part of PRISM-AI project aimed at creating multiplex networks for prostate tumor risk stratification
+Research focus: Complex systems, network theory and medical applications
 
-### PostDoc (2022-2024)
-**CentraleSupélec**
-- Project in collaboration between cognitive neuroscientists and physicists
-- Research focus: Agent-based modeling and interdisciplinary applications, human learning and biases
+- ### PostDoc (2022-2024), CentraleSupélec
+Project in collaboration between cognitive neuroscientists and physicists
+Research focus: Agent-based modeling and interdisciplinary applications, human learning and biases
 
 ---
 
