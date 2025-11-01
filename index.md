@@ -95,24 +95,33 @@ body > .inner > h1:first-child {
 <div class="header-clean">
   <div>
     <h1>Michele Vodret</h1>
-    <h2>Researcher in Complex Systems and Data Science</h2>
+    <h2>Modeling & data science across physics, finance, and healthcare</h2>
   </div>
   <img src="assets/images/profile.png" class="profile-img" alt="Michele Vodret">
 </div>
 
 ## About
 
-I am a researcher working at the intersection of **statistical physics**, **machine learning**, and **complex systems**.  
-My work focuses on understanding patterns and emergent behaviors in **biological**, **social**, and **financial** systems through data-driven modeling and quantitative analysis.
+I am a researcher working at the intersection of statistical physics, machine learning, and complex systems.
+I study how patterns and collective behaviors emerge in biological, social, and financial systems using data-driven and theoretical modeling.
+My experience spans network theory, agent-based modeling, time-series analysis, and medical data.
+I aim to build tools that connect theory and real-world data, turning complex dynamics into actionable insight.
 
-I have experience across multiple fields, from **network theory** and **agent-based models** to **time-series analysis** and **medical data modeling**.  
-My broader goal is to develop tools that bridge **theoretical modeling** and **real-world data** to gain insights into complex phenomena.
 
 ## Research Interests
 
-- **Statistical Mechanics** and stochastic modeling  
-- **Complex Systems** and emergent collective dynamics  
-- **Time-Series Analysis** and irreversibility  
-- **Network Theory** and information flow  
-- **Computational Models** for biological and social systems
+
+- **Statistical mechanics and stochastic modeling
+
+
+- **Complex systems and emergent dynamics
+
+
+- **Time-series analysis and irreversibility
+
+
+- **Network theory and information flow
+
+
+- **Computational models for biology and society
 
