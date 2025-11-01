@@ -135,15 +135,11 @@ I aim to build tools that connect theory and real-world data, turning complex dy
 
 - Statistical mechanics and stochastic modeling
 
-
 - Complex systems and emergent dynamics
-
 
 - Time-series analysis and irreversibility
 
-
 - Network theory and information flow
-
 
 - Computational models for biology and society
 
