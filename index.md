@@ -4,6 +4,18 @@ layout: default
 ---
 
 <style>
+/* Override theme constraints for better desktop view */
+.inner {
+  max-width: 1200px !important;
+  width: 90% !important;
+  margin: 0 auto !important;
+}
+
+#content-wrapper {
+  max-width: none !important;
+  width: 100% !important;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
@@ -81,6 +93,16 @@ body > .inner > h1:first-child {
 @media (max-width: 768px) {
   .header-clean { flex-direction: column; text-align: center; }
   .profile-img { margin-top: 20px; width: 120px; height: 120px; }
+  .nav-clean { flex-wrap: wrap; gap: 15px; }
+}
+
+/* Ensure good desktop spacing */
+@media (min-width: 769px) {
+  .nav-clean { gap: 40px; padding: 30px 0; }
+  .header-clean { margin-bottom: 40px; }
+  body { font-size: 16px; }
+  .header-clean h1 { font-size: 3em; }
+  .header-clean h2 { font-size: 1.3em; }
 }
 </style>
 
