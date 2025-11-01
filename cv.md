@@ -86,16 +86,15 @@ body > .inner > h1:first-child {
 
 ## Education
 
-### Ph.D. in Physics (2019-2022)
-**École Polytechnique**
-- Focus: Agent-based models for financial markets and price dynamics
-- Thesis topic: Scritto al programma di dottorato in Fisica, ho lavorato su modelli ad agente volti a riprodurre la dinamica del prezzo nei mercati finanziari
+### Ph.D. in Physics 
+**École Polytechnique & CFM**
+- Title: Microfounded theories of price formation
 
-### Laurea Magistrale in Fisica (2016-2019)
+### Master Degree in Physics
 **Università degli studi di Milano**
-- Focus: Teoria dei campi, meccanica statistica
+- Focus: Statistical Field theory
 
-### Laurea Triennale in Fisica (2012-2016)
+### Bachelor Degree in Physics
 **Università degli studi di Milano**
 
 ---
@@ -104,37 +103,22 @@ body > .inner > h1:first-child {
 
 ### Assegnista di ricerca di tipo B (August 2024 - Present)
 **Università degli studi di Milano**
-- Part of ABC project aimed at creating multiplex networks for prostate tumor risk stratification
-- Research focus: Complex systems, network theory, and medical applications
+- Part of PRISM-AI project aimed at creating multiplex networks for prostate tumor risk stratification
+- Research focus: Complex systems, network theory and medical applications
 
 ### PostDoc (2022-2024)
 **CentraleSupélec**
-- Project collaboration between cognitive neuroscientists and physicists
-- Research focus: Agent-based modeling and interdisciplinary applications
-
----
-
-## Research Interests
-
-- **Agent-based modeling**: Complex systems simulation and financial markets
-- **Quantitative Finance**: Financial market dynamics and econophysics
-- **Network Theory**: Multiplex networks and complex network analysis
-- **Statistical Mechanics**: Applications to economic and social systems
+- Project in collaboration between cognitive neuroscientists and physicists
+- Research focus: Agent-based modeling and interdisciplinary applications, human learning and biases
 
 ---
 
 ## Experience
 
-### Teaching & Supervision
-- Leadership/mentoring: Ho fatto da relatore a 3 studenti per tesi di laurea magistrale in fisica
+### (Master) Students Supervision
+- Giovanni Umile, Cristiano Pacini, Felibe Bueno Moret
 
-### Research Experience
+### Teaching Experience
 - **Viral Propagation (Network module)**, tenuto da Prof. Bongiorno, CentraleSupélec, 2023
 - **Données et Statistiques en Finance: modeles d'agents**, tenuto da Prof. Challet, CentraleSupélec, 2023  
 - **Time series and agent-based modeling in finance**, tenuto da Prof. Bongiorno, CentraleSupélec, 2023
-
----
-
----
-
-*Download full CV: [PDF](assets/cv.pdf)*
