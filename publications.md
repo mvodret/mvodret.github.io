@@ -14,6 +14,8 @@ layout: default
   <a href="/contact">Contact</a>
 </nav>
 
+## Published Research Papers
+
 1. **Irreversibility in belief dynamics: unraveling the link to cognitive effort**  
    Physical Review E 110 (1), 014304, **M. Vodret**
 
@@ -70,7 +72,7 @@ Specialité de doctorat: Physique
 - **Rapporteurs:** Johannes Muhle-Karbe (Imperial College London), Giulio Bottazzi (Scuola Superiore Sant'Anna)
 - **Examinateurs:** Albert Kyle (University of Maryland), Sophie Laruelle (Université Paris-Est Créteil)
 - **Directeur de thèse:** Michael Benzaquen (CNRS & École polytechnique, LadHyX)
-- **Co-encadrants:** Iacopo Mastromatteo & Bence Tóth (PhD, Capital Fund Management)
+- **Co-encadrants:** Iacopo Mastromatteo & Bence Tóth (Capital Fund Management)
 
 [Full Text PDF](https://theses.hal.science/tel-04106396/file/114697_VODRET_2022_archivage.pdf)
 
