@@ -63,6 +63,12 @@ body {
 body > .inner > h1:first-child {
   display: none;
 }
+
+/* Override theme's red h3 styling */
+h3 {
+  color: #2c3e50 !important; /* Dark blue-gray instead of red */
+}
+
 .header-clean {
   display: flex;
   align-items: center;
