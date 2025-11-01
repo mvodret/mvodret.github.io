@@ -17,7 +17,8 @@ layout: default
 ## Published Research Papers
 
 1. **Irreversibility in belief dynamics: unraveling the link to cognitive effort**  
-   Physical Review E 110 (1), 014304, **M. Vodret**
+   Physical Review E 110 (1), 014304, 
+   **M. Vodret**
 
 2. **Functional decomposition and estimation of irreversibility in time series via machine learning**  
    Physical Review E 110 (6), 064310  

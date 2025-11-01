@@ -43,7 +43,7 @@ Research focus: Agent-based modeling and interdisciplinary applications, human l
 
 
 ## (Master) Students Supervision
-- Giovanni Umile, Cristiano Pacini, Felibe Bueno Moret
+- Giovanni Umile, Cristiano Pacini, Felipe Bueno Moret
 
 ## Teaching Experience
 - **Viral Propagation (Network module)**, tenuto da Prof. Bongiorno, CentraleSupélec, 2023
