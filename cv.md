@@ -16,16 +16,13 @@ layout: default
 
 ## Education
 
-### Ph.D. in Physics 
-**École Polytechnique & CFM**
-- Title: Microfounded theories of price formation
+- ### Ph.D. in Physics, École Polytechnique & CFM
+**Title: Microfounded theories of price formation**
 
-### Master Degree in Physics
-**Università degli studi di Milano**
-- Focus: Statistical Field theory
+- ### Master Degree in Physics, Università degli studi di Milano**
+**Focus: Statistical Field theory**
 
-### Bachelor Degree in Physics
-**Università degli studi di Milano**
+- ### Bachelor Degree in Physics, Università degli studi di Milano
 
 ---
 
